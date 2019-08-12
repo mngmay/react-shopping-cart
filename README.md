@@ -51,7 +51,7 @@ Before you get started, please take a few minutes and get acquainted with this a
 
 - Inside that folder create a new file named `ProductContext.js`
 
-- In this file, import the `createContext` function from the react library and create our `ProductContext`.
+- In this file, import the `createContxt` function from the react library and create our `ProductContext`.
 
 **STEP 2 - Providing data with ProductContext**
 
