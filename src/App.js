@@ -19,8 +19,12 @@ function App() {
   };
 
   const removeItem = id => {
-    setCart([...cart].filter(item => item.id !== id));
+    setCart(cart.filter(item => item.id !== id));
   };
+
+  if (!cart) {
+    return <div>Loading cart...</div>;
+  }
 
   return (
     <ProductContext.Provider value={{ products, addItem }}>
